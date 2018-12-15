@@ -1,0 +1,7 @@
+[Unit]
+Description=Renews the TLS certificates
+
+[Service]
+Type=oneshot
+ExecStart=renew-letsencrypt-certs -- certonly --agree-tos --non-interactive
+ExecStartPost=/usr/bin/systemctl restart nginx
