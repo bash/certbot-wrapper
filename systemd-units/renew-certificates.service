@@ -1,5 +1,5 @@
 [Unit]
-Description=Renews the TLS certificates
+Description=Renews Let’s Encrypt certificates
 
 [Service]
 Type=oneshot

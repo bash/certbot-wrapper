@@ -1,5 +1,5 @@
 [Unit]
-Description=Run renew-certs.service every month
+Description=Tries to renew Let’s Encrypt certificates every month
 
 [Timer]
 OnCalendar=monthly
