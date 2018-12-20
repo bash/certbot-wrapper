@@ -11,6 +11,8 @@ fn parse_arguments() -> Arguments {
     const DEFAULT_CONFIG_PATH: &str = "/etc/letsencrypt/conf.d";
 
     let matches = app_from_crate!()
+        .about("Calls certbot for each .ini file found in CONFIG_PATH")
+        .template("{about}\n\nUSAGE: {usage}\n\n{all-args}")
         .arg(
             Arg::with_name(CONFIG_PATH_ARG)
                 .long("config-path")
