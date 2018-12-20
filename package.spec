@@ -1,5 +1,5 @@
 Name: certbot-wrapper
-Version: {{{ git_dir_version }}}
+Version: 0.1.0
 Release: 1%{?dist}
 Summary: A wrapper around certbot with some extras ✨
 License: MIT
