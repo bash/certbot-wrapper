@@ -1,5 +1,5 @@
 [package]
-name = "renew-letsencrypt-certs"
+name = "certbot-wrapper"
 version = "0.1.0"
 authors = ["Ruben Schmidmeister <ruben.schmidmeister@icloud.com>"]
 edition = "2018"
