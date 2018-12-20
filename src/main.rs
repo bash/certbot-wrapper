@@ -1,8 +1,8 @@
 #[macro_use]
 extern crate clap as clap;
 
+use certbot_wrapper::{renew_certificates, Arguments};
 use clap::Arg;
-use renew_letsencrypt_certs::{renew_certificates, Arguments};
 use std::io;
 
 fn parse_arguments() -> Arguments {
