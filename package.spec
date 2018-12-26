@@ -22,3 +22,6 @@ Source: {{{ git_dir_pack }}}
 
 %changelog
 {{{ git_dir_changelog }}}
+
+%license LICENSE-MIT
+%doc readme.md
