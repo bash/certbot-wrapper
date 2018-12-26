@@ -14,5 +14,11 @@ Source: {{{ git_dir_pack }}}
 %prep
 {{{ git_dir_setup_macro }}}
 
+%build
+%cargo_build
+
+%install
+%cargo_install
+
 %changelog
 {{{ git_dir_changelog }}}
