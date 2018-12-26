@@ -20,8 +20,8 @@ Source: {{{ git_dir_pack }}}
 %install
 %cargo_install
 
-%changelog
-{{{ git_dir_changelog }}}
+# %changelog
+# {{{ git_dir_changelog }}}
 
 %license LICENSE-MIT
 %doc readme.md
