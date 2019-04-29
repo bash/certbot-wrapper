@@ -3,5 +3,5 @@ Description=Renews Let’s Encrypt certificates
 
 [Service]
 Type=oneshot
-ExecStart=renew-letsencrypt-certs -- certonly --agree-tos --non-interactive
+ExecStart=certbot-wrapper -- certonly --agree-tos --non-interactive
 ExecStartPost=/usr/bin/systemctl reload nginx
